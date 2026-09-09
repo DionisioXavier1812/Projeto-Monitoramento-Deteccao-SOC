@@ -1,55 +1,61 @@
 # Dionisio Xavier
 
 ## ?? Projeto-Monitoramento-Deteccao-SOC
+![Status](https://img.shields.io/badge/status-active-green)
+![Focus](https://img.shields.io/badge/focus-blue_team-red)
+![Domain](https://img.shields.io/badge/domain-SOC%20%7C%20DFIR%20%7C%20MITRE%20ATT&CK-blue)
+![RealWorld](https://img.shields.io/badge/based_on-real_world_experience-black)
+
+Este projeto Ã© baseado no meu trabalho diÃ¡rio real em operaÃ§Ãµes de seguranÃ§a, investigaÃ§Ã£o, resposta a incidentes e monitoramento contÃ­nuo de ambientes corporativos e crÃ­ticos.
 
 ![Status](https://img.shields.io/badge/status-active-green)
 ![Focus](https://img.shields.io/badge/focus-blue_team-red)
 ![Domain](https://img.shields.io/badge/domain-SOC%20%7C%20DFIR%20%7C%20MITRE%20ATT&CK-blue)
 
-Descrição breve do projeto:
-Projeto profissional de monitoramento, detecção, investigação e resposta a incidentes, incluindo DFIR, MITRE ATT&CK, logs simulados, IoCs, playbooks, threat modeling e documentação técnica consolidada.
+DescriÃ§Ã£o breve do projeto:
+Projeto profissional de monitoramento, detecÃ§Ã£o, investigaÃ§Ã£o e resposta a incidentes, incluindo DFIR, MITRE ATT&CK, logs simulados, IoCs, playbooks, threat modeling e documentaÃ§Ã£o tÃ©cnica consolidada.
 
 ## ?? Objetivo do Projeto
-- Criar um ambiente SOC completo para estudo e portfólio
+- Criar um ambiente SOC completo para estudo e portfÃ³lio
 - Simular ataques realistas com base em MITRE ATT&CK
-- Gerar documentação DFIR profissional
-- Demonstrar investigação, resposta e contenção
-- Consolidar evidências, IoCs e logs simulados
-- Criar ambientes técnicos com arquitetura e cadeia de ataque
+- Gerar documentaÃ§Ã£o DFIR profissional
+- Demonstrar investigaÃ§Ã£o, resposta e contenÃ§Ã£o
+- Consolidar evidÃªncias, IoCs e logs simulados
+- Criar ambientes tÃ©cnicos com arquitetura e cadeia de ataque
 
-## ?? Estrutura do Repositório
+## ?? Estrutura do RepositÃ³rio
 - docs/
 - ambiente-1/
 - ambiente-2/
 - ambiente-3/
 
-## ?? Conteúdo do Projeto
-### ?? Cenário Principal
-Ambiente corporativo com múltiplos vetores de ataque simulados.
+## ?? ConteÃºdo do Projeto
+### ?? CenÃ¡rio Principal
+Ambiente corporativo com mÃºltiplos vetores de ataque simulados.
 
-### ?? Ameaças Simuladas
-- Execução PowerShell maliciosa
-- Exfiltração HTTPS
+### ?? AmeaÃ§as Simuladas
+- ExecuÃ§Ã£o PowerShell maliciosa
+- ExfiltraÃ§Ã£o HTTPS
 - Credential Harvesting
 - Movimento lateral
-- Persistência
+- PersistÃªncia
 
 ### ?? Cadeia de Ataque
 Fluxo completo baseado em MITRE ATT&CK.
 
 ### ?? Ambientes
-Três ambientes completos com arquitetura, incidentes e DFIR.
+TrÃªs ambientes completos com arquitetura, incidentes e DFIR.
 
 ## ?? DFIR
-Investigação completa, timeline, evidências, análise e relatório final.
+InvestigaÃ§Ã£o completa, timeline, evidÃªncias, anÃ¡lise e relatÃ³rio final.
 
 ## ?? Logs e IoCs
 Logs simulados e indicadores de comprometimento reais.
 
 ## ?? MITRE ATT&CK
-Mapeamento completo das técnicas utilizadas.
+Mapeamento completo das tÃ©cnicas utilizadas.
 
-## ??? Topics do Repositório
+## ??? Topics do RepositÃ³rio
 - SOC
 - DFIR
 - MITRE ATT&CK
@@ -60,7 +66,7 @@ Mapeamento completo das técnicas utilizadas.
 - Logs
 - IoCs
 
-## ?? Skills Técnicas
+## ?? Skills TÃ©cnicas
 - DFIR
 - MITRE ATT&CK
 - Blue Team
@@ -70,7 +76,7 @@ Mapeamento completo das técnicas utilizadas.
 - PowerShell
 - Git
 
-## ?? Documentação Avançada
+## ?? DocumentaÃ§Ã£o AvanÃ§ada
 - docs/threat-model.md
 - docs/final-report.md
 
