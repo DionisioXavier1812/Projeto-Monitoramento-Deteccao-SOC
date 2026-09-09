@@ -1,0 +1,23 @@
+title: Admin Account Creation
+id: dio-soc-002
+description: Detecta criação de contas administrativas suspeitas.
+status: experimental
+author: Dionisio Xavier
+date: 2026-09-09
+references:
+    - https://attack.mitre.org/techniques/T1078/
+logsource:
+    product: windows
+    category: security
+detection:
+    selection:
+        EventID: 4720
+        Privileges|contains: 'Domain Admin'
+    condition: selection
+fields:
+    - TargetUserName
+    - Privileges
+    - SubjectUserName
+falsepositives:
+    - Criação legítima por equipe de TI
+level: critical

@@ -1,0 +1,4 @@
+2026-09-09 01:14:11 Suspicious outbound connection to 185.222.81.14:443
+2026-09-09 01:14:12 Protocol: HTTPS (JA3 fingerprint mismatch)
+2026-09-09 01:14:12 DataVolume: 4.2MB
+2026-09-09 01:14:12 MITRE: T1040 / T1071

@@ -1,0 +1,24 @@
+title: Authentication Bruteforce Detection
+id: dio-soc-004
+description: Detecta múltiplas falhas de autenticação seguidas de sucesso.
+status: experimental
+author: Dionisio Xavier
+date: 2026-09-09
+references:
+    - https://attack.mitre.org/techniques/T1110/
+logsource:
+    product: windows
+    category: security
+detection:
+    failed:
+        EventID: 4625
+    success:
+        EventID: 4624
+    timeframe: 2m
+    condition: failed | count >= 3 and success
+fields:
+    - TargetUserName
+    - IpAddress
+falsepositives:
+    - Usuário digitando senha incorreta repetidamente
+level: medium

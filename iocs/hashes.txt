@@ -1,0 +1,7 @@
+# Hashes — SOC Dio
+
+svc-loader.exe
+SHA256: 9f1c2a8b4d0e6c1f3a7b9d2e4f6a8c1d9e0f2b3c4d5e6f7a8b9c0d1e2f3a4b5
+
+update.ps1
+SHA256: 4c8e1f9a2d3b7e6c5a1d0f9e8b7c6a5d4e3f2b1c0a9e8d7c6b5a4f3e2d1c0b9

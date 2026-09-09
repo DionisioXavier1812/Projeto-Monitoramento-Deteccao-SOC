@@ -1,0 +1,5 @@
+# URLs — SOC Dio
+
+https://malicious-update.net/payload.exe
+https://secure-checkin.io/auth.php
+http://cloud-sync-bypass.com/api/v1/sync

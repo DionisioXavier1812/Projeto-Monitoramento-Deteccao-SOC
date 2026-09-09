@@ -1,0 +1,23 @@
+# IoCs — SOC Dio
+
+## Arquivos suspeitos
+C:\Users\Public\update.ps1
+C:\Temp\svc-loader.exe
+
+## Processos suspeitos
+powershell.exe -nop -w hidden
+svchost.exe (PID 4412) — comportamento anômalo
+
+## Conexões suspeitas
+185.222.81.14:443
+91.240.118.66:8080
+
+## Credenciais comprometidas
+dio-admin
+dio-secops
+
+## MITRE ATT&CK
+T1059.001 — PowerShell  
+T1078 — Valid Accounts  
+T1040 — Network Sniffing  
+T1110 — Brute Force  

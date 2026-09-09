@@ -1,0 +1,25 @@
+{
+  "dashboard": "SOC Dio",
+  "panels": [
+    {
+      "title": "PowerShell Execution",
+      "metric": "count",
+      "query": "process.name: powershell.exe AND process.command_line: (*-nop* OR *-enc*)"
+    },
+    {
+      "title": "Authentication Failures",
+      "metric": "count",
+      "query": "event.code:4625"
+    },
+    {
+      "title": "Suspicious Network",
+      "metric": "count",
+      "query": "network.ja3: *incomum*"
+    },
+    {
+      "title": "Admin Account Creation",
+      "metric": "count",
+      "query": "event.code:4720 AND user.privileges: *Domain Admin*"
+    }
+  ]
+}

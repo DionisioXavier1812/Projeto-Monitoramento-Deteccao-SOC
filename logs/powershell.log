@@ -1,0 +1,5 @@
+2026-09-09 01:12:44 CMD: powershell.exe -nop -w hidden -enc SQBFAFgA...
+2026-09-09 01:12:45 Event: Suspicious PowerShell Execution
+2026-09-09 01:12:45 User: dio-admin
+2026-09-09 01:12:45 ParentProcess: winlogon.exe
+2026-09-09 01:12:45 MITRE: T1059.001

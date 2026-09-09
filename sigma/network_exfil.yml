@@ -1,0 +1,25 @@
+title: Suspicious HTTPS Exfiltration
+id: dio-soc-003
+description: Detecta conexões HTTPS suspeitas com fingerprint JA3 incomum.
+status: experimental
+author: Dionisio Xavier
+date: 2026-09-09
+references:
+    - https://attack.mitre.org/techniques/T1041/
+logsource:
+    product: network
+    category: proxy
+detection:
+    selection:
+        DestinationPort: 443
+        JA3|contains: 'incomum'
+        DataVolume|gte: 4000000
+    condition: selection
+fields:
+    - SourceIP
+    - DestinationIP
+    - JA3
+    - DataVolume
+falsepositives:
+    - Aplicações corporativas com fingerprint customizado
+level: high
