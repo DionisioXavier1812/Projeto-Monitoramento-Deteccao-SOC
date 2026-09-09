@@ -1,41 +1,29 @@
-# Final Report — SOC Dio
+# Final Report — Projeto-Monitoramento-Deteccao-SOC
 
-## Resumo Executivo
-Incidente simulado envolvendo execução suspeita, persistência e movimento lateral.
+## ?? Resumo Executivo
+Incidente simulado envolvendo execução PowerShell maliciosa, credential harvesting, movimento lateral e exfiltração HTTPS.
 
-## Incidente
-Execução de PowerShell malicioso detectado pelo SIEM.
+## ?? Linha do Tempo DFIR
+- 08:12 — Execução PowerShell suspeita
+- 08:17 — Dump de credenciais detectado
+- 08:25 — Movimento lateral
+- 08:33 — Exfiltração HTTPS
+- 08:40 — Contenção
+- 09:10 — Erradicação
+- 10:00 — Recuperação
 
-## Impacto
-Acesso indevido a ativos Dio, risco de exfiltração.
+## ?? Evidências
+- Logs PowerShell
+- Sysmon
+- Autenticação
+- Network Flow
+- IoCs
 
-## DFIR
-Timeline completa, reconstrução do ataque, análise de logs.
+## ?? MITRE ATT&CK
+Mapeamento completo das técnicas utilizadas.
 
-## Logs
-Eventos simulados de PowerShell, criação de usuários, falhas de autenticação.
-
-## IoCs
-- Hashes  
-- Domínios  
-- IPs  
-- Comandos  
-
-## MITRE Mapping
-- T1059.001  
-- T1078  
-- T1021  
-- T1040  
-
-## Playbook
-1. Identificar  
-2. Conter  
-3. Erradicar  
-4. Recuperar  
-5. Documentar  
-
-## Lições Aprendidas
-Melhorar correlação e alertas.
-
-## Recomendações
-Automação, TI, expansão de regras.
+## ??? Recomendações
+- Hardening
+- MFA
+- Segmentação
+- Monitoramento contínuo

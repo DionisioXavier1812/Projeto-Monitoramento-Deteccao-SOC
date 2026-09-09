@@ -1,40 +1,41 @@
-# Ambiente 3 — Segurança Dio
+# Ambiente 3 — Projeto-Monitoramento-Deteccao-SOC
 
 ## Sobre o Cenário
-Camada de segurança avançada.
+Exfiltração final via HTTPS.
 
 ## Arquitetura
-Firewalls, IDS, SIEM.
+- Servidor de Aplicações
+- Firewall
 
 ## Cadeia de Ataque
-Recon ? Exploração ? Exfiltração.
+Exfiltração ? Cleanup
 
 ## Incidente
-Comunicação maliciosa.
+Envio de dados para servidor externo.
 
 ## Impacto
-Risco de vazamento.
+Vazamento de dados.
 
 ## Logs Simulados
-Network sniffing.
+Network Flow.
 
 ## IoCs
-Domínios, IPs.
+IPs externos.
 
 ## MITRE ATT&CK
-T1040, T1071.
+T1041.
 
 ## Timeline DFIR
-Análise completa.
+Exfiltração ? Contenção.
 
 ## Evidências
-Pacotes, alertas.
+Network logs.
 
 ## Playbook
-Bloqueio e contenção.
+Bloqueio + análise.
 
 ## Lições Aprendidas
-Melhorias.
+Monitoramento.
 
 ## Recomendações
-Monitoramento contínuo.
+Segmentação + IDS.

@@ -1,40 +1,41 @@
-# Ambiente 2 — Aplicações Dio
+# Ambiente 2 — Projeto-Monitoramento-Deteccao-SOC
 
 ## Sobre o Cenário
-Aplicações críticas monitoradas.
+Movimento lateral após credential harvesting.
 
 ## Arquitetura
-APIs, serviços, autenticação.
+- AD Domain Controller
+- Windows Server
 
 ## Cadeia de Ataque
-Exploração ? Persistência.
+Lateral Movement ? Persistence
 
 ## Incidente
-Criação de usuário administrativo.
+Uso de credenciais comprometidas.
 
 ## Impacto
-Comprometimento de aplicações.
+Escalada de privilégios.
 
 ## Logs Simulados
-Admin creation, policy change.
+Autenticação + Sysmon.
 
 ## IoCs
-Usuários, comandos.
+Domínios + contas.
 
 ## MITRE ATT&CK
-T1078, T1021.
+T1021, T1053.
 
 ## Timeline DFIR
-Fluxo completo.
+Login ? Escalada ? Persistência.
 
 ## Evidências
-Eventos correlacionados.
+Event Logs.
 
 ## Playbook
-Resposta ao incidente.
+Reset credenciais.
 
 ## Lições Aprendidas
-Aprimoramento.
+Monitoramento.
 
 ## Recomendações
-Hardening.
+MFA + Hardening.

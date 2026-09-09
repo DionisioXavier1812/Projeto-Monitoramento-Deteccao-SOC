@@ -1,40 +1,42 @@
-# Ambiente 1 — Infraestrutura Dio
+# Ambiente 1 — Projeto-Monitoramento-Deteccao-SOC
 
 ## Sobre o Cenário
-Infraestrutura base do SOC Dio.
+Primeiro ambiente com ataque inicial via PowerShell.
 
 ## Arquitetura
-Servidores, pipelines, agentes, SIEM.
+- Windows 10
+- PowerShell
+- Sysmon
 
 ## Cadeia de Ataque
-Execução ? Persistência ? Movimento lateral.
+Execução ? Credential Harvesting ? Exfiltração
 
 ## Incidente
-PowerShell suspeito.
+Execução de script malicioso.
 
 ## Impacto
-Risco operacional.
+Comprometimento inicial.
 
 ## Logs Simulados
-Falhas, execuções, acessos.
+Eventos PowerShell + Sysmon.
 
 ## IoCs
-Hashes, IPs.
+Hashes + IPs.
 
 ## MITRE ATT&CK
-T1059.001, T1078.
+T1059, T1003.
 
 ## Timeline DFIR
-Minuto a minuto.
+Execução ? Dump ? Exfiltração.
 
 ## Evidências
-Comandos, logs.
+PowerShell logs.
 
 ## Playbook
-Procedimento completo.
+Isolamento + análise.
 
 ## Lições Aprendidas
-Melhorias.
+Hardening.
 
 ## Recomendações
-Controles adicionais.
+MFA + Sysmon.

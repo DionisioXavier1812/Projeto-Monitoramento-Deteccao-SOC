@@ -1,45 +1,38 @@
-# Threat Model — SOC Dio
+# Threat Model — Projeto-Monitoramento-Deteccao-SOC
 
-## Visão Geral
-Modelo de ameaças aplicado ao SOC Dio, cobrindo ingestão, correlação, detecção e resposta.
+## ?? Objetivo
+Modelar ameaças, superfícies de ataque, vetores, técnicas MITRE e impactos no ambiente SOC simulado.
 
-## Arquitetura
-Fontes de Log ? Agentes ? Pipeline ? Normalização ? SIEM ? Regras ? Alertas ? Dashboards ? Resposta
+## ??? Arquitetura
+- AD Domain Controller
+- Servidor de Aplicações
+- Estações Windows
+- Firewall + IDS
+- Servidor de Logs (SIEM)
 
-## Ativos Críticos
-- Servidores Dio  
-- Aplicações Dio  
-- Logs Dio  
-- Credenciais  
-- Dashboards  
-- Pipelines  
+## ?? Vetores de Ataque
+- PowerShell malicioso
+- Credential Harvesting
+- Exfiltração HTTPS
+- Movimento lateral
+- Persistência
 
-## Ameaças
-- Execução remota  
-- Escalada de privilégios  
-- Persistência  
-- Exfiltração  
-- Movimento lateral  
+## ?? MITRE ATT&CK Mapping
+- T1059 — Command Execution
+- T1003 — Credential Dumping
+- T1041 — Exfiltration over HTTPS
+- T1021 — Lateral Movement
+- T1053 — Scheduled Tasks (Persistence)
 
-## Vetores de Ataque
-- PowerShell  
-- Serviços remotos  
-- Credenciais válidas  
-- Comunicação maliciosa  
+## ?? Superfícies de Ataque
+- Credenciais fracas
+- Falhas de hardening
+- Logs insuficientes
+- Exposição de serviços
 
-## Controles Existentes
-- Wazuh  
-- Elastic  
-- Sigma  
-- Dashboards  
-- Playbooks  
-
-## Lacunas
-- Falta de automação de resposta  
-- Falta de correlação avançada  
-- Falta de threat intelligence integrada  
-
-## Recomendações
-- Implementar SOAR  
-- Integrar feeds de TI  
-- Expandir regras Sigma  
+## ??? Controles Recomendados
+- Hardening AD
+- PowerShell Constrained Language Mode
+- Sysmon + Sigma
+- MFA
+- Network Segmentation
