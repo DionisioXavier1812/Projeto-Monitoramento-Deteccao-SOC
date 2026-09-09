@@ -1,92 +1,96 @@
-# Dionisio Xavier
-## ?? Projeto de Monitoramento e Detecção – SOC
+# ??? Projeto de Monitoramento e Detecção — SOC Dio
 
-[![Status](https://img.shields.io/badge/status-active-green)]()
-[![Focus](https://img.shields.io/badge/focus-cyber%20defense-red)]()
-[![Domain](https://img.shields.io/badge/domain-Dio-blue)]()
-
-Plataforma de monitoramento, correlação, detecção e resposta a incidentes, simulando um SOC completo para a instituição Dio.  
-Inclui:
-- DFIR
-- MITRE ATT&CK
-- Logs simulados
-- IoCs
-- Playbooks
-- Threat Modeling
-- Incident Response
-
----
-
-## ?? Objetivo do Projeto
-- Simular um SOC moderno com foco em Blue Team e DFIR.
-- Documentar arquitetura, casos de uso e fluxos de detecção.
-- Demonstrar correlação de eventos e resposta a incidentes.
-- Servir como laboratório de estudo e portfólio profissional.
+Este repositório contém a estrutura completa de um ambiente SOC (Security Operations Center) criado para fins de estudo, demonstração e documentação.  
+Inclui logs simulados, IoCs, regras Sigma, documentação operacional e relatórios DFIR.
 
 ---
 
 ## ?? Estrutura do Repositório
-- docs/
-- ambiente-1/
-- ambiente-2/
-- ambiente-3/
-- (demais pastas já existentes no projeto)
+
 
 ---
 
-## ?? Conteúdo do Projeto
+## ?? Timeline DFIR Completa
 
-### ?? Cenário Principal
-SOC Dio monitorando múltiplos ambientes (infra, aplicações, segurança).
+Linha do tempo do incidente:
 
-### ?? Ameaças Simuladas
-- Execução suspeita de PowerShell  
-- Criação de usuários administrativos  
-- Modificação de políticas  
-- Movimento lateral  
-- Comunicação maliciosa  
+- Detecção  
+- Análise  
+- Contenção  
+- Erradicação  
+- Recuperação  
+- Relatório final  
 
-### ?? DFIR
-Investigação completa dos incidentes simulados, com timeline, evidências e conclusões.
-
-### ?? Logs e IoCs
-Coleção de logs simulados e indicadores de comprometimento usados nos cenários.
-
-### ?? MITRE ATT&CK
-Mapeamento das técnicas utilizadas nos ataques simulados.
+Arquivo: docs/final-report.md  
+Arquivo opcional: docs/timeline-dfir.md
 
 ---
 
-## ??? Topics do Repositório
-- SOC  
-- DFIR  
-- MITRE ATT&CK  
-- Logs  
-- IoCs  
-- Blue Team  
-- Threat Hunting  
-- Incident Response  
+## ?? IoCs Reais
+
+Inclui:
+
+- Hashes  
+- IPs  
+- Domínios  
+- URLs  
+- Artefatos  
+- Processos suspeitos  
+
+Pasta: iocs/
 
 ---
 
-## ?? Skills Técnicas
-- DFIR  
-- MITRE ATT&CK  
-- Blue Team  
-- Threat Hunting  
-- Incident Response  
-- Logs e Telemetria  
-- PowerShell  
-- Git  
+## ?? Logs Simulados
+
+Inclui:
+
+- Execução PowerShell  
+- Autenticação  
+- Rede  
+- Criação de admin  
+- Linha temporal do incidente  
+
+Pasta: logs/
 
 ---
 
-## ?? Documentação Avançada
-- docs/threat-model.md  
-- docs/final-report.md  
+## ?? Regras Sigma
+
+Regras reais:
+
+- Execução PowerShell  
+- Criação de admin  
+- Exfiltração HTTPS  
+- Brute force  
+
+Pasta: sigma/
 
 ---
 
-## ?? Contato
-LinkedIn: https://www.linkedin.com/in/dionisio-xavier  
-GitHub: https://github.com/DionisioXavier1812
+## ?? Objetivo do Projeto
+
+Este repositório demonstra:
+
+- Como estruturar um SOC completo  
+- Como documentar ambientes  
+- Como criar regras Sigma  
+- Como gerar IoCs  
+- Como simular incidentes  
+- Como montar dashboards  
+- Como escrever relatórios DFIR  
+- Como correlacionar evidências  
+- Como montar fluxos operacionais
+
+---
+
+## ????? Autor
+
+**Dionisio Xavier**  
+Projeto SOC Dio — Monitoramento e Detecção.
+
+---
+
+## ?? Licença
+
+Uso livre para fins educacionais e laboratoriais.
